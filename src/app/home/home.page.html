@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+</ion-header><ion-content [fullscreen]="true">
+  <ion-header collapse="condense">  
+  </ion-header>
+
+  <!--Inicio del contenedor de Slide-->
+  <swiper-container>
+    <!--Slide 1-->
+    <swiper-slide>
+      <img src="./assets/images/slide-1.jpg">
+      <h2>Hola! bienvenido a TeLlevoAPP</h2>
+      <p> Estamos emocionados de darte la bienvenida a nuestra comunidad exclusiva para estudiantes de Duoc UC. En TeLlevopAPP,
+          hemos creado una experiencia de transporte diseñada especialmente para satisfacer tus necesidades como estudiante.</p>
+    </swiper-slide>
+    <!--Slide 2-->
+    <swiper-slide>
+      <img src="./assets/images/slide-2.jpg">
+      <h2>¿Que es TeLlevoAPP?</h2>
+      <p> TeLlevoAPP es una aplicación desarrollada para el uso exclusivo de estudiantes de Duoc UC, donde podras
+        encontrar la forma más conveniente de trasladarte a tu sede. Nuestra aplicación te conecta con tus compañeros o otros alumnos,
+        quienes actúan como choferes, bridándote un servicio de traslado seguro y asequible.</p>
+    </swiper-slide>
+    <!--Slide 3-->
+    <swiper-slide>
+      <img src="./assets/images/slide-3.jpg">
+      <h2>¿Puedo registrar mi vehiculo?</h2>
+      <p> Por supuesto, para poder ayudar en el traslado de alumnos de tu sede simplemente debes cumplir con unos requisitos.</p>
+        <p>● Entregar una fotocopia de tu licencia  y cedula de identidad en punto estudiantil.</p>
+        <p>● Certificado de antecedentes actualizado y historial de infracciones de transito limpio.</p>
+        <p>● 4 puertas, maletero en buen estado y doble airbag. </p>
+    </swiper-slide>
+    <!--Slide 4-->
+    <swiper-slide>
+      <h2>¿Estas listo para empezar?</h2>
+      <!-- Boton para trasladar al login de la APP-->
+      <ion-button fill="clear" [routerLink]="['/login']">Si, vamos adelante <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+    </swiper-slide>
+  </swiper-container>
+
+</ion-content>

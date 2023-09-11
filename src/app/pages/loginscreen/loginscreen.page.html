@@ -1,0 +1,44 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <!--<ion-title>loginscreen</ion-title> -->
+  </ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button defaulthref="login"></ion-back-button>
+  </ion-buttons>
+</ion-header>
+
+<ion-content>
+  
+  <ion-card class="ion-no-margin">
+    <ion-img src="./assets/background/header1.png"></ion-img>
+  
+<form>
+  <ion-card-content>
+    <div class="wrapfore">
+    
+      <ion-item>
+        <ion-icon name="person-outline"></ion-icon>
+        <ion-input type="text" name="name"  placeholder="Usuario" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="lock-closed-outline"></ion-icon>
+        <ion-input type="password" name="password" placeholder="************" required>
+        </ion-input>
+      </ion-item>
+    </div>
+    <div class="password_forgot">
+      <ion-button [routerLink]="['/recoverpass']" fill="clear" class="ion-no-padding"> Olvidaste tu contraseña? </ion-button>
+    </div>
+    <div class="sing-btn-wrap">
+      <ion-button [routerLink]="['/main']" shape="round" fill="solid" class="sing-btn"> Ingresar </ion-button>
+    </div>
+  </ion-card-content>
+</form>
+</ion-card>
+
+<div class="ion-card-fooster">
+  <span>No tienes una cuenta?</span><button [routerLink]="['/signup']" class="ion-no-padding">Crear Cuenta</button>
+</div>
+</ion-content>

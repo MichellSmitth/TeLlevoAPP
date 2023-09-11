@@ -1,0 +1,72 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <!--<ion-title>travel</ion-title>-->
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button [routerLink]="['/travel']" tab="Travel">
+        <ion-icon name="car-outline"></ion-icon>
+        Viajes
+      </ion-tab-button>
+      <ion-tab-button tab="Home">
+        <ion-icon [routerLink]="['/main']" name="person-circle-outline"></ion-icon>
+        Perfil
+      </ion-tab-button>
+      <ion-tab-button tab="Settings">
+        <ion-icon name="settings-outline"></ion-icon>
+        Ajustes 
+      </ion-tab-button>
+      <ion-tab-button tab="chatbox">
+        <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+        Mensajes 
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+  
+  <ion-card class="ion-no-margin">
+
+    <ion-card-header>
+      <!-- Ofrecer Viaje -->
+      <ion-card>
+        <img alt="Silhouette of mountains" src="./assets/images/img-travel-ofert.jpg" />
+        <ion-card-header>
+          <ion-card-title>Ofrecer Viaje</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Entrega un servicio de viaje a otros estudiantes para que puedan llegar al institución o sus hogares 
+          de manera segura.
+          <ion-button fill="clear">Ofrecer viaje.<ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+        </ion-card-content>
+      </ion-card>
+
+      <!-- Solicitar Viaje -->
+      <ion-card>
+        <img alt="Silhouette of mountains" src="./assets/images/img-travel-sol.jpg" />
+        <ion-card-header>
+          <ion-card-title>Solicitar Viaje</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Solicita transporte a otro alumno de Duoc UC para llegar a tu sede o hogar de manera segura.
+          <ion-button [routerLink]="['/transportrequest']" fill="clear">Solicitar viaje.<ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+        </ion-card-content>
+      </ion-card>
+
+    </ion-card-header>
+
+
+
+
+
+
+  </ion-card>
+
+</ion-content>
+
+

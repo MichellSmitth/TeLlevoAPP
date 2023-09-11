@@ -1,0 +1,46 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-card>
+  <ion-img src="./assets/background/header.png"></ion-img>
+  <img src="./assets/logo/Logo.png" class="logo">
+  <ion-card-header>
+  
+    <ion-card-title>
+      Bienvenido
+    </ion-card-title>
+    <ion-card-subtitle class="ion-text-lowercase">
+      Para crear tu cuenta solo tienes que utilizar tu correo institucional de Duoc UC.
+    </ion-card-subtitle>
+
+  </ion-card-header>
+
+  <ion-card-header>
+    <ion-card-content>
+      <div class="signin-btns" >
+            <!--Login Boton-->
+            <ion-button [routerLink]="['/loginscreen']" size="default" fill="solid" shape="round" class="LoginBtn">
+              Iniciar Sesión
+            </ion-button>
+          <!-- Registrar Boton-->
+            <ion-button [routerLink]="['/signup']" size="default" fill="outline" shape="round" color="dark">
+              Crear Cuenta
+            </ion-button>
+      </div>
+    </ion-card-content>
+
+
+
+  </ion-card-header>
+</ion-card>
+
+
+
+
+
+</ion-content>

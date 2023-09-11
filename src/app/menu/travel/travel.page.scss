@@ -1,0 +1,18 @@
+ion-header{
+    position: absolute;
+}
+
+ion-toolbar{
+    --ion-background: #ffffff;
+    --opacity: 0;
+}
+
+ion-card{
+    --ion-background-color: transparent;
+}
+
+ion-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}

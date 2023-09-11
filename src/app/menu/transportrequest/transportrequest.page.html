@@ -1,0 +1,82 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <!--<ion-title>transportrequest</ion-title>-->
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button [routerLink]="['/travel']" tab="Travel">
+        <ion-icon name="car-outline"></ion-icon>
+        Viajes
+      </ion-tab-button>
+      <ion-tab-button tab="Home">
+        <ion-icon [routerLink]="['/main']" name="person-circle-outline"></ion-icon>
+        Perfil
+      </ion-tab-button>
+      <ion-tab-button tab="Settings">
+        <ion-icon name="settings-outline"></ion-icon>
+        Ajustes 
+      </ion-tab-button>
+      <ion-tab-button tab="chatbox">
+        <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+        Mensajes 
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+  
+  <ion-card class="ion-no-margin">
+
+    <ion-card-header>
+      <!--- Chofer N° 1-->
+      <ion-card>
+        <ion-card-header>
+          <ion-avatar>
+            <img alt="Silhouette of a person's head" src="./assets/profile/profile-1.jpg" />
+          </ion-avatar>
+          <ion-card-title>Toñito Hasbulla</ion-card-title>
+          <ion-card-subtitle>2016 Dodge Attiude Matricula: N/A</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Realizo viajes por todo Concepción hasta San pedro. Disponible despues de 14:30 hrs.
+        </ion-card-content>
+        <ion-button fill="clear">Solicitar Viaje</ion-button>
+        <ion-button fill="clear">Enviar Mensaje</ion-button>
+      </ion-card>
+
+            <!--- Chofer N° 2-->
+            <ion-card>
+              <ion-card-header>
+                <ion-avatar>
+                  <img alt="Silhouette of a person's head" src="./assets/profile/profile-2.jpg" />
+                </ion-avatar>
+                <ion-card-title>Mauricio Paredes</ion-card-title>
+                <ion-card-subtitle>2023 Mercedez Benz GLB Matricula: N/A</ion-card-subtitle>
+              </ion-card-header>
+              <ion-card-content>
+                Viajo desde de Lomas de san andres a las 8:30hrs, Salgo a las 17:50 hrs devuelta por si alguien le sirve.
+              </ion-card-content>
+              <ion-button fill="clear">Solicitar Viaje</ion-button>
+              <ion-button fill="clear">Enviar Mensaje</ion-button>
+            </ion-card>
+
+                  <!--- Chofer N° 3-->
+      <ion-card>
+        <ion-card-header>
+          <ion-avatar>
+            <img alt="Silhouette of a person's head" src="./assets/profile/profile-3.jpg" />
+          </ion-avatar>
+          <ion-card-title>Ronald Morris</ion-card-title>
+          <ion-card-subtitle>1999 Maruti Matricula: N/A</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          Viaje disponible hacia el puerto de Talcahuano.
+        </ion-card-content>
+        <ion-button fill="clear">Solicitar Viaje</ion-button>
+        <ion-button fill="clear">Enviar Mensaje</ion-button>
+      </ion-card>
+    </ion-card-header>

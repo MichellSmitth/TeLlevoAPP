@@ -1,0 +1,30 @@
+ion-header{
+    position: absolute;
+}
+
+ion-toolbar{
+    --ion-background: #ffffff;
+    --opacity: 0;
+}
+
+ion-avatar{
+    margin: auto;
+}
+
+ion-card-title{
+    font-size: 20px;
+    color: #53565A;
+    font-weight: 600;
+    text-align: center;
+}
+
+ion-card-subtitle{
+    font-size: 15px;
+    color: #898585;
+    text-align: center;
+    font-weight: 300;
+}
+
+ion-card-content{
+    text-align: center;
+}

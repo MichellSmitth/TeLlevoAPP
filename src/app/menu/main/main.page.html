@@ -1,0 +1,69 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <!--<ion-title>main</ion-title>-->
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button [routerLink]="['/travel']" tab="Travel">
+        <ion-icon name="car-outline"></ion-icon>
+        Viajes
+      </ion-tab-button>
+      <ion-tab-button tab="Home">
+        <ion-icon [routerLink]="['/main']" name="person-circle-outline"></ion-icon>
+        Perfil
+      </ion-tab-button>
+      <ion-tab-button tab="Settings">
+        <ion-icon name="settings-outline"></ion-icon>
+        Ajustes 
+      </ion-tab-button>
+      <ion-tab-button tab="chatbox">
+        <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+        Mensajes 
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+
+  
+  <ion-card class="ion-no-margin">
+
+    <ion-card-header>
+
+      <ion-card-title>
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="./assets/icon/icon-avatar.jpg" />
+        </ion-avatar>
+        Bienvenido! Usuario.
+      </ion-card-title>
+
+      <div class="sing-btn-wrap">
+        <ion-button [routerLink]="['/loginscreen']" shape="round" fill="solid" class="sing-btn"> Cerrar Sesión </ion-button>
+      </div>
+
+
+
+
+
+
+    </ion-card-header>
+
+
+
+
+
+
+
+
+  </ion-card>
+
+
+
+</ion-content>
+
+
+
